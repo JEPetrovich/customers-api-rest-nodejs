@@ -1,0 +1,67 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "customer",
+    "dateExported": "2024-04-19T15:39:15.175Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f10ae83a-034a-4a79-939e-50e1f0123876",
+            "colId": "431e70c4-b96a-444a-894e-3838e1d928e7",
+            "containerId": "",
+            "name": "deleteCustomer",
+            "url": "http://localhost:8080/api/customer/delete/1",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-04-19T15:37:28.671Z",
+            "modified": "2024-04-19T15:37:28.671Z",
+            "headers": []
+        },
+        {
+            "_id": "b733f4f1-3b82-41e1-856c-2487f2dfb11f",
+            "colId": "431e70c4-b96a-444a-894e-3838e1d928e7",
+            "containerId": "",
+            "name": "updateCustomer",
+            "url": "http://localhost:8080/api/customer/update",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-04-19T15:37:55.232Z",
+            "modified": "2024-04-19T15:37:55.232Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 1,\n  \"firstName\": \"Martin\",\n  \"lastName\": \"Lopez\",\n  \"email\": \"martin@mail.com\",\n  \"birth_date\": \"1998-06-13 00:00:00\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9787a90d-b591-4ea2-a186-23a9539b9125",
+            "colId": "431e70c4-b96a-444a-894e-3838e1d928e7",
+            "containerId": "",
+            "name": "addCustomer",
+            "url": "http://localhost:8080/api/customer/add",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-04-19T15:38:03.300Z",
+            "modified": "2024-04-19T15:38:03.300Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\": \"Martin\",\n  \"lastName\": \"Lopez\",\n  \"email\": \"martin@mail.com\",\n  \"birth_date\": \"1998-06-13 00:00:00\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "db9d2736-ae92-4a28-9540-b61972a3c402",
+            "colId": "431e70c4-b96a-444a-894e-3838e1d928e7",
+            "containerId": "",
+            "name": "listCustomers",
+            "url": "http://localhost:8080/api/customer/list",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-19T15:38:10.043Z",
+            "modified": "2024-04-19T15:38:10.043Z",
+            "headers": []
+        }
+    ]
+}
